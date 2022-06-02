@@ -6,7 +6,6 @@
 #include <time.h>
 #include <sys/time.h>
 
-
 #define MQTT_BROKER   "mqtt.m5stack.com"
 #define MQTT_PORT     1883
 #define MQTT_USERNAME "UNIT_CATM"
