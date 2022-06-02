@@ -1,8 +1,18 @@
-# M5Template-C-CPP
-Template for M5Stack C and CPP projects.
+# M5Unit-CatM
 
-## Steps
+## Overview
 
-1. Change [clang format check path](./.github/workflows/clang-format-check.yml#L9-L15).
-2. Add License content to [LICENSE](/LICENSE).
-3. Change this [README.md](./README.md#L1-L8).
+Contains M5Stack **UNIT CatM** related case programs. MQTT Client examples。
+
+## Libraries
+
+- [TinyGSM](https://github.com/vshymanskyy/TinyGSM)
+
+## Related Link
+
+- [Document & AT Command](https://docs.m5stack.com/en/unit/cat_m)
+
+## License
+
+- [IoT_BASE_SIM7080 - MIT](LICENSE)
+
