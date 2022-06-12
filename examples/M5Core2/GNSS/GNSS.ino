@@ -3,12 +3,11 @@
 * Copyright (c) 2022 by M5Stack
 *                  Equipped with M5Core2 sample source code
 *                          配套  M5Core2 示例源代码
-* Visit the website for more
-information: https://docs.m5stack.com/en/unit/catm_gnss
-* 获取更多资料请访问: https://docs.m5stack.com/zh_CN/module/catm_gnss
+* Visit for more information: https://docs.m5stack.com/en/unit/catm_gnss
+* 获取更多资料请访问: https://docs.m5stack.com/zh_CN/unit/catm_gnss
 *
-* describe: catm_gnss.
-* date: 2022/03/03
+* Describe: catm_gnss.
+* Date: 2022/06/012
 *******************************************************************************
 This case will use UNIT CATM+GNSS combined with M5Core
 Obtain positioning information through GNSS
@@ -125,7 +124,7 @@ void setup() {
     log(modemInfo + time());
 }
 
-bool gps_flag                 = false;
+bool gps_flag = false;
 
 void loop() {
     canvas.println("INIT GNSS" + time());
@@ -153,16 +152,15 @@ void loop() {
                              &accuracy2, &year2, &month2, &day2, &hour2, &min2,
                              &sec2)) {
                 log("Latitude:" + String(lat2, 8) +
-                               "\tLongitude:" + String(lon2, 8));
-                log("Speed:" + String(speed2) +
-                               "\tAltitude:" + String(alt2));
+                    "\tLongitude:" + String(lon2, 8));
+                log("Speed:" + String(speed2) + "\tAltitude:" + String(alt2));
                 log("Visible Satellites:" + String(vsat2) +
-                               "\tUsed Satellites:" + String(usat2));
+                    "\tUsed Satellites:" + String(usat2));
                 log("Accuracy:" + String(accuracy2));
-                log("Year:" + String(year2) + "\tMonth:" +
-                               String(month2) + "\tDay:" + String(day2));
-                log("Hour:" + String(hour2) + "\tMinute:" +
-                               String(min2) + "\tSecond:" + String(sec2));
+                log("Year:" + String(year2) + "\tMonth:" + String(month2) +
+                    "\tDay:" + String(day2));
+                log("Hour:" + String(hour2) + "\tMinute:" + String(min2) +
+                    "\tSecond:" + String(sec2));
                 break;
             } else {
                 log("Get GPS/GNSS/GLONASS location.." + time());
