@@ -2,7 +2,9 @@
 
 ## Overview
 
-Contains M5Stack **UNIT CatM** related case programs. MQTT Client examples。
+### SKU:U128
+
+Contains M5Stack **UNIT CatM** related case programs. MQTT Client examples.
 
 ## Libraries
 
@@ -14,5 +16,5 @@ Contains M5Stack **UNIT CatM** related case programs. MQTT Client examples。
 
 ## License
 
-- [IoT_BASE_SIM7080 - MIT](LICENSE)
+- [M5Unit-CatM - MIT](LICENSE)
 

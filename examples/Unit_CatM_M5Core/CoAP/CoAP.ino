@@ -7,8 +7,8 @@
 information: https://docs.m5stack.com/en/unit/catm_gnss
 * 获取更多资料请访问: https://docs.m5stack.com/zh_CN/module/catm_gnss
 *
-* describe: catm_gnss.
-* date: 2022/03/03
+* Product:  catm_gnss.
+* Date: 2022/03/03
 *******************************************************************************
 This case will use UNIT CATM+GNSS combined with M5Core
 Connect to the CoAP server and send a request.
